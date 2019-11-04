@@ -49,7 +49,7 @@ def connect_db():
 
 def request_data():
 
-    user_id = input("Введите идентификатор пользователя: ")
+    user_id = input("Введите id пользователя: ")
     return int(user_id)
 
 
