@@ -111,13 +111,8 @@ def main():
     else:
         bd_athlete, bd = nearest_by_bd(user, session)
         height_athlete, height = nearest_by_height(user, session)
-        print(
-            "Ближайший по дате рождения атлет: {}, его дата рождения: {}".format(bd_athlete, bd)
-        )
-        print(
-            "Ближайший по росту атлет: {}, его рост: {}".format(height_athlete, height)
-        )
-
+        print("Id ближайшего по дате рождения атлета: {}, его дата рождения: {}".format(bd_athlete, bd))
+        print("Id ближайшего по росту атлета: {}, его рост: {}".format(height_athlete, height))
 
 if __name__ == "__main__":
     main()
