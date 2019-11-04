@@ -48,7 +48,7 @@ def main():
 	user = request_data()
 	session.add(user)
 	session.commit()
-	print("Спасибо, данные сохранены!")
+	print("Спасибо, данные сохранены! Ваш id: {}".format(user.id))
 
 if __name__ == "__main__":
 	main()
